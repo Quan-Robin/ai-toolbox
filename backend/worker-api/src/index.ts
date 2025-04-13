@@ -23,23 +23,23 @@ const modelRegistry: Record<string, ModelConfig> = {
     // --- Gemini (通过代理) ---
     'gemini-2.5': {
         apiEndpoint: 'https://gemini.231030.xyz/v1/chat/completions',
-        apiKeyEnvVar: 'GEMINI_API_KEY',
+        apiKeyEnvVar: 'AIzaSyCG6NuXKy4Ohnourapu5BRQRoB5JFhDCOM',
         actualModelName: 'gemini-2.5-pro-exp-03-25',
     },
     'gemini-2.0': {
         apiEndpoint: 'https://gemini.231030.xyz/v1/chat/completions',
-        apiKeyEnvVar: 'GEMINI_API_KEY',
+        apiKeyEnvVar: 'AIzaSyCG6NuXKy4Ohnourapu5BRQRoB5JFhDCOM',
         actualModelName: 'gemini-2.0-flash',
     },
     // --- DeepSeek ---
     'deepseek-r1': {
         apiEndpoint: 'https://api.deepseek.com/v1/chat/completions',
-        apiKeyEnvVar: 'DEEPSEEK_API_KEY',
+        apiKeyEnvVar: 'sk-b75387d0b6d84e29ac84ba876709f1f5',
         actualModelName: 'deepseek-reasoner',
     },
     'deepseek-v3': {
         apiEndpoint: 'https://api.deepseek.com/v1/chat/completions',
-        apiKeyEnvVar: 'DEEPSEEK_API_KEY',
+        apiKeyEnvVar: 'sk-b75387d0b6d84e29ac84ba876709f1f5',
         actualModelName: 'deepseek-chat',
     },
     // --- 未来模型占位 ---
